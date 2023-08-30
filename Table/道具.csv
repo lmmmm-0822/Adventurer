@@ -1,0 +1,3 @@
+Items,Name,Image,Type,Description,MaxPile,Func,Sound,Level,Price,RealImage,Other,Weight
+,,,,,,//Prop、Equipment、Food使用Effect，其他类型的物品使用ItemEffect//Prop冒号前的数字代表使用的Effect的编号，而不是Effect的特性,,,,,,
+1001,钱袋,1001,Material,一个普通的用来装钱的袋子。,1,,,,-1,1001,,300

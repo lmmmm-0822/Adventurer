@@ -1,0 +1,118 @@
+[
+    {
+        "Key": "Init",
+        "Value": [
+            {
+                "$type": "CharacterData, Assembly-CSharp",
+                "allEnemys": {
+                    "Level1": [
+                        [],
+                        [],
+                        [],
+                        [],
+                        []
+                    ]
+                },
+                "allCreatorDatas": {
+                    "Level1": [
+                        {
+                            "lastTime": 0,
+                            "disableTime": 0,
+                            "enemies": [
+                                {
+                                    "enmeyType": 3,
+                                    "weight": 1.0
+                                }
+                            ],
+                            "randomTime": false,
+                            "minTime": 0,
+                            "maxTime": 0,
+                            "certainTime": 360,
+                            "maxCount": 1,
+                            "initCount": 1
+                        },
+                        {
+                            "lastTime": 0,
+                            "disableTime": 0,
+                            "enemies": [
+                                {
+                                    "enmeyType": 1,
+                                    "weight": 1.0
+                                }
+                            ],
+                            "randomTime": false,
+                            "minTime": 0,
+                            "maxTime": 0,
+                            "certainTime": 360,
+                            "maxCount": 1,
+                            "initCount": 1
+                        },
+                        {
+                            "lastTime": 0,
+                            "disableTime": 0,
+                            "enemies": [
+                                {
+                                    "enmeyType": 1,
+                                    "weight": 1.0
+                                }
+                            ],
+                            "randomTime": false,
+                            "minTime": 0,
+                            "maxTime": 0,
+                            "certainTime": 360,
+                            "maxCount": 1,
+                            "initCount": 1
+                        },
+                        {
+                            "lastTime": 0,
+                            "disableTime": 0,
+                            "enemies": [
+                                {
+                                    "enmeyType": 2,
+                                    "weight": 1.0
+                                }
+                            ],
+                            "randomTime": false,
+                            "minTime": 0,
+                            "maxTime": 0,
+                            "certainTime": 360,
+                            "maxCount": 1,
+                            "initCount": 1
+                        },
+                        {
+                            "lastTime": 0,
+                            "disableTime": 0,
+                            "enemies": [
+                                {
+                                    "enmeyType": 1,
+                                    "weight": 1.0
+                                }
+                            ],
+                            "randomTime": false,
+                            "minTime": 0,
+                            "maxTime": 0,
+                            "certainTime": 360,
+                            "maxCount": 1,
+                            "initCount": 1
+                        }
+                    ]
+                },
+                "enemyEntityDatas": {}
+            },
+            {
+                "$type": "SceneMgrData, Assembly-CSharp",
+                "current": "Level1",
+                "createdObjectIndex": 0,
+                "allSceneDatas": {
+                    "Level1": {
+                        "exitTime": -1,
+                        "enterSceneLogics": [],
+                        "inherentObjectDatas": {},
+                        "createdObjectDatas": {},
+                        "timesLimit": {}
+                    }
+                }
+            }
+        ]
+    }
+]

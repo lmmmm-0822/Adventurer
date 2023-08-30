@@ -1,0 +1,206 @@
+[
+    {
+        "TemplateId": 100,
+        "Name": "Qx测试",
+        "Path": "ConditionEvents/测试事件",
+        "Text": "你想要测试QxFramework的哪个功能",
+        "ImagePath": "Textures/122",
+        "Condition": {
+            "And": [
+                {
+                    "And": [
+                        {
+                            "Func": [
+                                "MoreThan",
+                                "2,1"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "Effect": {
+            "List": [
+                {
+                    "Selections": [
+                        {
+                            "DisableShow": 0,
+                            "ShowCondition": true,
+                            "SelectionText": "触发事件",
+                            "Condition": {
+                                "And": []
+                            },
+                            "Effect": {
+                                "List": [
+                                    {
+                                        "Func": [
+                                            "TryEvent",
+                                            "101"
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "DisableShow": 0,
+                            "ShowCondition": true,
+                            "SelectionText": "存档功能",
+                            "Condition": {
+                                "And": []
+                            },
+                            "Effect": {
+                                "List": [
+                                    {
+                                        "Func": [
+                                            "OpenUI",
+                                            "\"TestUI\""
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "DisableShow": 0,
+                            "ShowCondition": true,
+                            "SelectionText": "输出日志",
+                            "Condition": {
+                                "And": []
+                            },
+                            "Effect": {
+                                "List": [
+                                    {
+                                        "Func": [
+                                            "Log",
+                                            "\"这是一句日志\""
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "TemplateId": 101,
+        "Name": "触发事件测试",
+        "Path": "ConditionEvents/测试事件",
+        "Text": "这是一个测试事件",
+        "ImagePath": "Textures/122",
+        "Condition": {
+            "And": []
+        },
+        "Effect": {
+            "List": [
+                {
+                    "Selections": [
+                        {
+                            "DisableShow": 0,
+                            "ShowCondition": true,
+                            "SelectionText": "不能点的按钮",
+                            "Condition": {
+                                "And": [
+                                    {
+                                        "Func": [
+                                            "MoreThan",
+                                            "1,2"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "Effect": {
+                                "List": []
+                            }
+                        },
+                        {
+                            "DisableShow": 0,
+                            "ShowCondition": true,
+                            "SelectionText": "可以点的按钮",
+                            "Condition": {
+                                "And": [
+                                    {
+                                        "Func": [
+                                            "MoreThan",
+                                            "2,1"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "Effect": {
+                                "List": [
+                                    {
+                                        "Func": [
+                                            "DialogHit",
+                                            "\"好了这里只有一句话让你看了\""
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "TemplateId": 102,
+        "Name": "自言自语",
+        "Path": "ConditionEvents",
+        "Text": "",
+        "ImagePath": null,
+        "Condition": {
+            "And": []
+        },
+        "Effect": {
+            "List": [
+                {
+                    "Func": [
+                        "StartDialog",
+                        "\"洛缇丝\",true"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "TemplateId": 103,
+        "Name": "事件103",
+        "Path": "ConditionEvents",
+        "Text": "",
+        "ImagePath": null,
+        "Condition": {
+            "And": [
+                {
+                    "Func": [
+                        "CheckEnemysCount",
+                        "\"Village_Outside\",0,4,1,5"
+                    ]
+                }
+            ]
+        },
+        "Effect": {
+            "List": []
+        }
+    },
+    {
+        "TemplateId": 1001,
+        "Name": "操作UI",
+        "Path": "ConditionEvents/功能事件",
+        "Text": "仅代码使用，需要传参",
+        "ImagePath": null,
+        "Condition": {
+            "And": []
+        },
+        "Effect": {
+            "List": [
+                {
+                    "Func": [
+                        "OperateUI",
+                        "\"任意UI\",true"
+                    ]
+                }
+            ]
+        }
+    }
+]

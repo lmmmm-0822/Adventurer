@@ -1,0 +1,6 @@
+Enemy,Name,PerfabPath,,Health,Magic,Focus,Attack,Drop,Gold
+//英文名,//中文名,//预设路径,,//生命值,//魔法值,//专注值,//攻击力,//死亡掉落,
+Enemy1,敌人1,Character/Enemy1,,2,,,1,1:0.2|2:0.2|3:0.2,100
+Enemy2,敌人2,Character/Enemy2,,5,,,1,1:0.3|2:0.3|3:0.3|7:0.5|8:0.2,300
+Enemy3,敌人3,Character/Enemy3,,15,,,1,,0
+,,,,,,,,,

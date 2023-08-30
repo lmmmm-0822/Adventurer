@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - SceneAnchorPoint
+  - ChangeByTime
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Ground
+  - Player
+  - Enemy
+  - DamageArea
+  - PlayerIgnoreEnemy
+  - EnemyIgnoreOthers
+  - SceneInteractive
+  - SceneItem
+  - DamageableArea
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: DistantView
+    uniqueID: 1054304355
+    locked: 0
+  - name: Background
+    uniqueID: 2007318783
+    locked: 0
+  - name: Platform
+    uniqueID: 3643730155
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Enemy
+    uniqueID: 2003270923
+    locked: 0
+  - name: Player
+    uniqueID: 3276047661
+    locked: 0
+  - name: SpecialEffect
+    uniqueID: 3105707653
+    locked: 0
+  - name: Foreground
+    uniqueID: 1411261811
+    locked: 0

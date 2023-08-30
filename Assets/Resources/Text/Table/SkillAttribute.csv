@@ -1,0 +1,4 @@
+﻿SkillAttribute,Name,Level,PositionOffset,Radius,Size,StopTime,Type,PrefabPath,AddSpeed
+0,None,3,0.5|0.1,0.4,0|0,0.1,101,,2|1
+11,近战攻击,1,0.85|0.06,,1.6|0.75,0.15,0,,1|-0.5
+21,远程攻击,1,0.3|0.05,0,,0.05,100,Character/Circle,3|0
